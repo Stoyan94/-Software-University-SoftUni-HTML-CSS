@@ -6,6 +6,10 @@ body{
 p{
     color: gold;
 }
+ 
+a{
+ color: white ;
+}
 
 .box{
     background: white;
@@ -13,4 +17,8 @@ p{
 
 .warning{
     color: red;
+}
+
+#header_my-html-document-title-css {
+    font-size: 50px;
 }
