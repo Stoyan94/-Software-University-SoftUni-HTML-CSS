@@ -11,6 +11,10 @@ a{
  color: white ;
 }
 
+a[href^="https://"]{
+    color: orange;
+}
+
 .box{
     background: white;
 }
