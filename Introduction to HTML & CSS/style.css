@@ -6,3 +6,11 @@ body{
 p{
     color: gold;
 }
+
+.box{
+    background: white;
+}
+
+.warning{
+    color: red;
+}
