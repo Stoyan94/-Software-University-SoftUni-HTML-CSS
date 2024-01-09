@@ -3,7 +3,10 @@ section{
 }
 header{
     font-size: 28px;
-   
+    p{
+        font-size: 24px;
+        font-style: italic;
+    }
 }
 p{
     font-size: 24px;
