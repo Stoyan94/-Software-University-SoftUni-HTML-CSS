@@ -1,0 +1,22 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2, h3 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.4em;
+}
+h3{
+    font-size: 1.8em;
+}
+p{
+    padding-bottom: 1.5em;
+}
