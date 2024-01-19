@@ -16,9 +16,21 @@ body, button, input{
     padding: 0.5em 0.9em;
     margin: 0;
     border-radius: 2em;
+    background-color: rgb(251, 251, 251);
+    color: #000;
+}
+
+.button.fill{
+    background: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.button.icon i {
+    margin-right: 0.5em;
 }
 
 .button:hover{
     background: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
     color: rgb(251, 251, 251);
 }
