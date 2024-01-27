@@ -10,25 +10,49 @@
             padding: 2em;
         }
 
-        span,
-        p{
-            border: 2px solid currentColor;
+        div{
+            padding: 2em;
+            border: 1px dashed #333;
         }
 
-        span{
-            color: #090;
-        }
+      .outside{
+        background-color:  rgba(247, 168, 0, 0.692);
+      }
+
+      .border{
+        background-color: antiquewhite;
+      }
+
+      .padding{
+        background-color: lightgreen;
+      }
+
+      .content{
+        background-color: lightblue;
+      }
+
+      .box{
+        border: 2px solid black;
+        margin: 1em 4em;
+      }
         
     </style>
 </head>
 <body>
 
-    <span>Lorem ipsum dolor</span>
+    <div class="outside">
+        <div class="border">
+            <div class="padding">
+                <div class="content">
+                    Some text here
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <p>Lorem ipsum dolor</p>
+    <div class="box">
+        Text goes here
+    </div>
 
-    <span>Lorem ipsum dolor</span>
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem rerum odio est dolorem, iste velit! Odio eveniet officia nihil temporibus fugit libero id ipsam iusto eos voluptatem, maiores amet eum!</p>
 </body>
 </html>
