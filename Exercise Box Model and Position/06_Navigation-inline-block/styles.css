@@ -18,11 +18,15 @@ nav ul{
 }
 
 nav ul li{
-    display: inline;   
+    display: inline;
+    padding: 0 1em; 
 }
 
 nav a {
     color: #090;
     text-decoration: none;
-    padding: 1em;
+    padding: 0.5em 1em;
+}
+nav a:hover{
+    background: greenyellow;
 }
