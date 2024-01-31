@@ -1,0 +1,21 @@
+body{
+    padding: 2em;
+    background: #eee;
+}
+.container{
+    border: 2px solid #000;
+    padding: 2em;
+    background: #fff;
+}
+.item{
+    border: 1px solid #090;
+    padding: 0.5em;
+    background: lightgreen;
+    position: relative;
+}
+
+.item:nth-child(2) {
+    top: 1em;
+    left: 1em;
+    z-index: 1;
+}
