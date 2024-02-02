@@ -1,23 +1,24 @@
-body{
+body {
     background: rgb(238, 238, 238);
 }
-img{
+
+img {
     background: rgb(255, 255, 255);
     padding: 5px;
     border: 3px solid black;
     margin: 1em;
 }
 
-header{
+header {
     display: flex;
     border-bottom: 3px solid black;
-    padding-bottom: 5px;
+    padding-bottom: 5px;   
 }
 
-head p {
+header p {
     flex-grow: 1;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 42px;    
     text-align: start;
     font-weight: bold;
     margin: 0;
@@ -28,7 +29,7 @@ header nav li {
     margin: 0 1em;
 }
 
-header nav li a{
+header nav li a {
     text-decoration: none;
     color: rgb(0, 153, 0);
 }
@@ -46,5 +47,45 @@ aside a {
 }
 
 h1, h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
+}
+
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 4em;
+}
+
+.container {
+    display: flex;
+}
+
+.container > blockquote {
+    font-family: Georgia, serif; 
+    flex: 1;    
+    border-left: 4px solid lightgray;
+    padding-left: 2em;
+    font-style: italic;
+}
+
+.container > p {
+    flex: 1;    
+}
+
+
+.page header {
+    width: 100%;
+}
+
+.page main {
+    flex: 0 0 70%;
+}
+
+.page main :nth-child(2) {
+    float: right;
+}
+
+.page main :nth-child(10) {
+    float: left;
 }
