@@ -16,4 +16,35 @@ header{
 
 head p {
     flex-grow: 1;
+    text-transform: uppercase;
+    font-size: 42px;
+    text-align: start;
+    font-weight: bold;
+    margin: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}
+
+aside {
+    margin-left: 2em;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
