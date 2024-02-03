@@ -1,13 +1,7 @@
 section {
     position: absolute;
     top: 15em;
-    left: 12em;
-}
-
-section div span {
-    padding-left: 3px;
-    color: gray;
-    font-size: 14px;
+    left: 11em;
 }
 
 section div {
@@ -17,5 +11,8 @@ section div {
 }
 .price > span{
     position: absolute;
+    padding-left: 3px;
+    color: gray;
+    font-size: 14px;
     bottom: -1.5em;
 }
