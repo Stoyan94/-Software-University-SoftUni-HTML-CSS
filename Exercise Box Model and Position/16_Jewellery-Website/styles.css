@@ -1,1 +1,21 @@
-/* TODO: style the html */
+section {
+    position: absolute;
+    top: 15em;
+    left: 12em;
+}
+
+section div span {
+    padding-left: 3px;
+    color: gray;
+    font-size: 14px;
+}
+
+section div {
+    position: relative;
+    bottom: 4.5em;
+    left: 0.5em;
+}
+.price > span{
+    position: absolute;
+    bottom: -1.5em;
+}
