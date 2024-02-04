@@ -27,6 +27,7 @@ img{
     flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
+    /*align-items: flex-start;*/
 }
 
 .listing::after,
@@ -62,6 +63,7 @@ img{
 }
 
 .card .footer {
+    margin-top: auto;
     padding: 0.5em 1em;
     color: #369;
 }
