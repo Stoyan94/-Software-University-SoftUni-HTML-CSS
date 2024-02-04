@@ -12,15 +12,64 @@ body{
     align-items: center;
 }
 
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .listing{
-    width:  40em;
+    width:  45em;
     border: 2px solid black;
     display: flex;
-    padding: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.listing::after,
+.listing::before{
+    display: block;
+    content: '';
+    flex: 0 0 200px;
+    order: 9999;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    flex: 0 0 300px;
+    flex: 0 0 200px;
+    overflow: hidden;
+    border-radius: 0.3em;
+    border: 1px solid #ccc;
+    color: black;
+    text-decoration: none;
+}
+
+.card .media{
+    margin-bottom: 0.1em;
+}
+
+.card .title{
+    font-weight: bold;
+    padding: 0.5em 1em;
+}
+
+.card .description{
+    padding: 0.5em 1em;
+}
+
+.card .footer {
+    padding: 0.5em 1em;
+    color: #369;
+}
+
+.card:hover .footer{
+    background: #eee;
+}
+
+.card:hover .footer{
+    text-decoration: underline;
 }
