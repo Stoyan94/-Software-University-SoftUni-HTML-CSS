@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{    
+}
+
+.container {
+    min-height: 100vh;
+    border: 2px solid black;
+    padding: 2em;
+    display: flex;    
+    flex-direction: column;
+
+}
+
+.item {
+    border: 2px solid green;
+    padding: 0.5em;
+}
+
+.item:nth-child(3){
+    flex-grow: 1;
+}
+.item:nth-child(4){
+    margin-top: auto;
+}
