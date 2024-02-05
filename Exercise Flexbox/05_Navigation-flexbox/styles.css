@@ -1,0 +1,30 @@
+body{
+    padding: 2em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: serif;
+    flex-grow: 1;
+}
+
+nav ul li {
+    list-style-type: none; 
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
