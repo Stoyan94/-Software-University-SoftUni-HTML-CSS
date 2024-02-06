@@ -21,7 +21,37 @@ h1 , h2{
 h1 { font-size: 2.8em;}
 h2 { font-size: 2.2em;}
 
+.align-left{
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.align-right{
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+img[class*="align"] {
+    border: 3px solid black;
+}
+
 .page {
     max-width: 50em;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.site-header {
+    flex: 0 0 100%;
+    border-bottom: 2px solid black;
+}
+
+.site-main {
+    flex: 0 0 60%;
+}
+
+.site-aside {
+    flex: 1 0 auto;
 }
