@@ -33,6 +33,29 @@ h2 { font-size: 2.2em;}
 
 img[class*="align"] {
     border: 3px solid black;
+    padding: 5px;
+    background: white;
+    box-shadow: 0 0 0.5 0 rgba(0, 0, 0, 0,3);
+}
+
+blockquote[class*="align"] {
+    opacity: 0.7;
+    font: italic;
+    max-width: 50%;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+blockquote.align-right {
+    padding-left: 1em;
+    border-left: 1px solid #CCC;
+}
+
+blockquote.align-left {
+    padding-right: 1em;
+    border-right: 1px solid #CCC;
 }
 
 .page {
@@ -54,4 +77,32 @@ img[class*="align"] {
 
 .site-aside {
     flex: 1 0 auto;
+}
+
+.site-title {
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none outside;
+    padding: 0.5em;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    color: green;
 }
