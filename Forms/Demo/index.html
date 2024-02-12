@@ -8,27 +8,27 @@
 <body>
     <h1>FORMS</h1>
 
-    <form action="">
+    <form action="submitted.html" method="GET">
         <div>
         <label for="username">Name</label>
-        <input id="username" type="text">
+        <input id="username" name="username" type="text">
         </div>
 
         <div>
         <label for="password">Password</label>
-        <input id="password" type="password">
+        <input id="password" name="pass" type="password">
         </div>
         
         <div>
             <h2>Select a car brand</h2>
             <label for="Nisan-GTR">Nissan-Gtr</label>
-            <input id="Nisan-GTR" type="checkbox" value="NISAN-GTR" name="nisan-gtr">
+            <input id="Nisan-GTR" type="checkbox" value="NISAN-GTR" name="brand">
             
             <label for="BWM">BWM</label>
-            <input id="BWM" type="checkbox" value="BWM" name="bwm">
+            <input id="BWM" type="checkbox" value="BWM" name="brand">
 
             <label for="Audi">Audi</label>
-            <input id="Audi" type="checkbox" value="AUDI" name="audi">
+            <input id="Audi" type="checkbox" value="AUDI" name="brand">
             </div>
 
             <div>
@@ -41,7 +41,9 @@
     
                 <label for="bg">Bulgaria</label>
                 <input id="bg" type="radio" name="location" value="bg">
-                </div>
+            </div>
+
+            <button>Submit</button>
     </form>
 </body>
 </html>
