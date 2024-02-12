@@ -9,8 +9,39 @@
     <h1>FORMS</h1>
 
     <form action="">
-        <label for="">Name</label>
-        <input type="text">
+        <div>
+        <label for="username">Name</label>
+        <input id="username" type="text">
+        </div>
+
+        <div>
+        <label for="password">Password</label>
+        <input id="password" type="password">
+        </div>
+        
+        <div>
+            <h2>Select a car brand</h2>
+            <label for="Nisan-GTR">Nissan-Gtr</label>
+            <input id="Nisan-GTR" type="checkbox" value="NISAN-GTR">
+            
+            <label for="BWM">BWM</label>
+            <input id="BWM" type="checkbox" value="BWM">
+
+            <label for="Audi">Audi</label>
+            <input id="Audi" type="checkbox" value="AUDI">
+            </div>
+
+            <div>
+                <h2>Select a car location</h2>
+                <label for="jap">Japan</label>
+                <input id="jap" type="radio" name="location" value="jap">
+                
+                <label for="du">Germany</label>
+                <input id="du" type="radio" name="location" value="du">
+    
+                <label for="bg">Bulgaria</label>
+                <input id="bg" type="radio" name="location" value="bg">
+                </div>
     </form>
 </body>
 </html>
