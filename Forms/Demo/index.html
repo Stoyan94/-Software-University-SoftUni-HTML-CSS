@@ -11,13 +11,18 @@
     <form action="submitted.html" method="GET">
         <div>
         <label for="username">Name</label>
-        <input id="username" name="username" type="text">
+        <input id="username" name="username" type="text" placeholder="Fill your name" required>
         </div>
 
         <div>
-        <label for="password">Password</label>
-        <input id="password" name="pass" type="password">
+            <label for="password">Password</label>
+            <input id="password" name="pass" type="password" placeholder="Fll your password" required>
         </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input id="email" name="pass" type="email" placeholder="Fll your email" required>
+        </div>     
         
         <div>
             <h2>Select a car brand</h2>
@@ -43,7 +48,17 @@
                 <input id="bg" type="radio" name="location" value="bg">
             </div>
 
-            <button>Submit</button>
+            <div>
+                <div>
+                    <label for="msg">Message</label>
+                </div>                
+                <textarea name="more-info" id="msg" cols="30" rows="10"></textarea>
+            </div>
+
+            <button>Submit <b>text</b></button>
+
+            <button type="reset">Reset</button>
+            <button type="button">Normal button</button>
     </form>
 </body>
 </html>
