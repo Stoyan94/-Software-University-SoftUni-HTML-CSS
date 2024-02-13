@@ -1,6 +1,6 @@
 /* Direct chield */
 ul > li {
-    background-color: red;
+    background-color: greenyellow;
 }
 
 /*С този селектор ">", хващаме директнине деца на даден елемент,
@@ -34,3 +34,23 @@ ul > li {
 .container-adjancet div + p {
     background-color: gray;
 }
+
+.nth-example li {
+    background-color: unset;
+}
+
+.nth-example li:nth-child(1) {
+    background-color: green;
+}
+
+.nth-example li:nth-child(odd) {
+    background-color: blue;
+}
+
+.nth-example li:nth-child(even) {
+    background-color: rgb(82, 77, 13);
+}
+
+/* .nth-example li:nth-child(2n +1) {
+    background-color: rgb(157, 148, 18);
+} */
