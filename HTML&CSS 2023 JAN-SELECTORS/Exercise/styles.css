@@ -17,6 +17,7 @@ blockquote {
 table{
     width: 100%;  
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 table thead{
@@ -31,4 +32,8 @@ table td {
 
 table tbody tr:nth-child(odd) {
     background-color: lightgray;
+}
+
+p {   
+    text-align: right;
 }
