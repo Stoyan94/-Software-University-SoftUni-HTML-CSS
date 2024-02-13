@@ -1,0 +1,36 @@
+/* Direct chield */
+ul > li {
+    background-color: red;
+}
+
+/*С този селектор ">", хващаме директнине деца на даден елемент,
+като li e директно дете на ul (li inside ul) */
+
+/* Аdjancet selector */
+ .container-adjancet p + p {
+    background-color: orange;    
+} 
+
+/*Аdjancet selector "+"- хващаме децата на дадения клас които са на едо ниво, които са P, но
+винаги тези деца P които следват P, а не първият P (първия параграф се пропуска)
+, но както в примера имаме отново div и след него два P, ПРОПУСКАМЕ ПЪРВИЯ, ЗАЩОТО
+ТЪРСИМ SIBLING P, P КОИТО СЛЕДВА P */
+
+
+/* General combo */
+.container-general p ~ p {
+    background-color: green;    
+}
+
+/*Сeлектор "~"- e като противоположен селектор на "+".
+Тука заявяваме, че търсим всички P в дадения клас P КОИТО СЛЕДВАТ P
+без значение, както в дадения пример имаме div по средата,
+селектора хваща и двата P след div */
+
+
+.container-adjancet p + div {
+    background-color: gray;
+}
+.container-adjancet div + p {
+    background-color: gray;
+}
