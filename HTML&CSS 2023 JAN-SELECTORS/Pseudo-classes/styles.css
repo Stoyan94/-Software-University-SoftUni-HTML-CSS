@@ -1,0 +1,32 @@
+/*Когато напишем един път двуеточие след някой клас, по този начин
+извикваме псевдо клас, а когато е 2-но двуеточието извикваме 
+псевдо елемент */
+
+.link:visited {
+    color: red;
+}
+
+.link:active {
+    color: green;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+.btn2:disabled{
+    background-color: lightgray;
+    color: darkgray;
+}
+
+.input:focus {
+    background-color: gray;
+}
+
+.input:active{
+    background-color: red;
+}
