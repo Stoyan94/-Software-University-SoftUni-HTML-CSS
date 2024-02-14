@@ -17,11 +17,11 @@ html {
   }
   
 i {
-    font-size: 48px;
+    font-size: 50px;
     color: #7e8bb6;
     position: relative;
-    bottom: 1em;
-    right: 1em;   
+    bottom: 0.7em;
+       
   }
   
 p {
@@ -122,14 +122,16 @@ p {
 } 
 
 #features .ft-title{
+  font-size: 28px;
     display: flex;
     justify-content: start;
-    margin-top: 10em;
+    margin-top: 5em;
     position: relative;    
     left: 15em;
 }
 
 #features .ft-text{
+  font-size: 20px;
     display: flex;
     justify-content: start; 
     margin: 1em 1em;
@@ -139,7 +141,7 @@ p {
 }
 
 #features .art1, .art2, .art3, .art4, .art5, .art6 {
-    max-width: 30%;
+    max-width: 35%;
     padding: 50px;    
 }
 
