@@ -1,0 +1,11 @@
+/*bg - #070e27 
+primary - #0059f7
+bg-light - 162044
+gray - #7e8bb6
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #070e27;
+    color: #fff;
+}
