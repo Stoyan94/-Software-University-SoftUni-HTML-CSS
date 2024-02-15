@@ -4,13 +4,18 @@
         font-size: 12px;
     }
 
+    .home-navbar {
+        position: static;
+        margin-bottom: 20px;
+    }
+
     .max-width-container {
         padding-left: 12px;
         padding-right: 12px;
     }
 
     .home-container {
-        padding-top: 60px;
+        padding-top: 0px;
     }
 
     .home-header {
