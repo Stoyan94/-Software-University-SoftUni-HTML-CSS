@@ -4,6 +4,10 @@
         font-size: 12px;
     }
 
+    .home-container {
+        padding-top: 60px;
+    }
+
     .home-header {
         padding: 12px 0;
     }
@@ -18,5 +22,13 @@
 
     h1.section-heading-text{
         margin: 0;
+    }
+
+    .section-heading-section-heading{
+        margin: 0 0 20px 0;
+    }
+
+    .home-cards-container {
+        grid-gap: 10px;
     }
 }
