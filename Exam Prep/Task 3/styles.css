@@ -17,3 +17,20 @@
     border: 2px solid black;
     color: white;
 }
+
+.site-section {
+    padding: 2em;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul{
+    display: flex;
+} 
+
+.site-header nav ul{
+    list-style: none outside;
+}
