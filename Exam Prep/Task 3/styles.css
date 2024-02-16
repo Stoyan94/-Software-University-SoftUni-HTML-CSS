@@ -39,13 +39,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     line-height: 1.26;
     margin-bottom: 1rem;
-    padding-left: 1em;
+    padding-left: 1.2em;
 }
 
 .site-section.banner p {
-    font-size: 1.2em;
-    max-width: 39.5rem;
-    padding-left: 2.8em;
+    font-size: 1.1em;
+    max-width: 38.5em;
+    padding-left: 3.99em;
 }
 
 .site-section {
