@@ -8,6 +8,7 @@ html {
     font: 20px/1.5 "PT Sans", sans-serif;
 }
 
+
 body {
     background-image: url('images/background.jpg');
     background-repeat: no-repeat;
@@ -81,7 +82,9 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
 }
 
-/* Sectin-buttons */
+/* Section-buttons */
+
+
 
 .site-section.columns h2{
     font-size: 60px;
@@ -94,13 +97,30 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 19px;
     color: lightslategray;
     padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.site-section .button{
+    border: 3px solid #b0825c;
+    padding: 1em 1em; 
+    text-decoration: none;
+    color: #b0825c;
+    font-weight: bold;    
+}
+
+.site-section .container{
+    margin-bottom: 5em;
 }
 
 .site-section.columns {
     border-bottom: 2px solid #ccc;;
     background: #fff;
-    padding-left: 7em;
-}
+    padding-left: 7em; 
+   }
+
+
+
+/* Sponsors */
 
 .site-section.sponsors,
 .site-section.partners {
@@ -112,10 +132,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 2em;
 }
-
-
-/* Sponsors */
-
 .site-section.sponsors p,
 .site-section.partners p {
     font-size: 19px;
