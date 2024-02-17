@@ -260,3 +260,50 @@ p {
 .pricing .list li:not(:last-child) {
   margin-bottom: 15px;
 }
+
+.pricing .list li i {
+  margin-right: 5px;
+}
+
+.pricing button i {
+  color: #fff;
+  margin-left: 10px;
+}
+
+#pricing .get-started.gray{
+  background-color: #0059f7;
+}
+
+#pricing .get-started.last{
+  background-color: #689eff;
+}
+
+#pricing .get-started{
+  padding: 1em 1em;
+  background-color: #4e5a85;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.pricing .action-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-start;
+  width: 600px;
+  margin: 0 auto;
+  height: 115px;
+  background-color: blue;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+.pricing .action-container button {
+  width: 125px;
+  height: 40px;  
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
