@@ -16,13 +16,6 @@ html {
     color: #fff;
   }
   
-i {
-    font-size: 50px;
-    color: #7e8bb6;
-    position: relative;
-    bottom: 0.7em;
-       
-  }
   
 p {
   color: #7e8bb6;
@@ -111,6 +104,15 @@ p {
   gap: 8px;
 }
 /* Feature section*/
+
+
+#features i {
+  font-size: 50px;
+  color: #7e8bb6;
+  position: relative;
+  bottom: 0.7em;
+     
+}
 
 #features article{   
   border: 1px solid #162044;
@@ -202,3 +204,39 @@ p {
 #how .row .desc {
   font-size: 14px;
 }
+
+/* Pricing */
+
+#pricing .title-p{
+  padding-bottom: 1em;
+}
+
+#pricing .section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 48px
+}
+
+.pricing {
+  margin-bottom: 60px;
+  padding:0px 70px ;
+}
+
+.pricing .plans {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 60px;
+  align-items: end;
+}
+
+.pricing .plan {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgb(8 17 49);
+}
+
+.pricing .top-plan{
+  margin-bottom: 80px;
+}
+
