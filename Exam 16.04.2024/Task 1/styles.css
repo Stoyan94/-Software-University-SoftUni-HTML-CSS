@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Sans Serif Collection", sans-serif;
+}
+
+.site {
+    width: 900px;
+    margin: 0 auto;
+    background: #efefef;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    display: flex;
+    background: #c1bdba;
+}
+
+.calculator {
+    width: 50%;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #26333c;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    padding-top: 1.5em;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    height: 5vh;  
+    padding-top: 1em; 
+}
+
+.first-button,
+.second-button {
+    text-decoration: none;
+    color: white;   
+    align-items: center;
+}
+
+#input-firstName{
+    width: 40%;
+    height: 60%;
+    background: #26333c
+}
+
+#input-lastName{
+    width: 40%;
+    height: 60%;
+    background: #26333c
+}
+
+.first-button {
+    background: #3bb088;
+    padding: 1px 4em;
+}
+
+.second-button {
+    background: #339977;
+    padding: 1px 5em;
+}
+
+#input-email {
+    width: 90%;
+    background: #26333c;
+    height: 60%;
+}
+
+#input-password {
+    width: 90%;
+    background: #26333c;
+    height: 60%;
+}
+
+.button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #339977;
+    padding: 1px 35%;    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+p:last-child {
+    padding-bottom: 40px;
+}
+
+.height {
+    padding-bottom: 40px;
+}
